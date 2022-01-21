@@ -16,6 +16,7 @@ class VowelsTest {
 
         assertEquals(1,result.get('o'));
         assertEquals(3,result.get('e'));
+        assertFalse(result.containsKey('a'));
     }
 
 
